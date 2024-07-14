@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Security Verifier</title>
+    <link rel="stylesheet" href="App.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/zxcvbn/4.4.2/zxcvbn.js"></script>
+    <script src="app.js"></script>
+
+</head>
+<body>
+    <h1>PASSWORD SECURITY CHECK</h1>
+    <form>
+       <center>
+        <label id="numbers" for="password">ENTER YOUR PASSWORD:</label>
+        <input type="password" id="password" onkeyup="validatePassword()">
+        <p id="message"></p>
+       </center>
+    </form>
+</body>
+</html>
